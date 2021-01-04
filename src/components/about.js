@@ -62,7 +62,7 @@ function About(){
             <div>
               <i className="fas fa-globe-asia" />
               <div className="timeline-item">
-                <h3 className="timeline-header"><a href="#">Web Developer </a>at AR Trade International</h3>
+                <h3 className="timeline-header"><a href="{home}">Web Developer </a>at AR Trade International</h3>
                 <div className="timeline-body">
                   <small> From September 01,2020 To Present </small>
                 </div>
@@ -74,7 +74,7 @@ function About(){
             <div>
               <i className="fas fa-globe-asia" />
               <div className="timeline-item">
-                <h3 className="timeline-header"><a href="#">Web Developer </a>at Intezie Limited</h3>
+                <h3 className="timeline-header"><a href="{home}">Web Developer </a>at Intezie Limited</h3>
                 <div className="timeline-body">
                   <small> From August 01,2019 To May 31,2020 </small>
                 </div>
@@ -98,7 +98,7 @@ function About(){
             </div>
           </div>
           <div className="image ">
-            <img className="img-fluid" src="./dist/img/svg/html-svgrepo-com.svg" alt />
+            <img className="img-fluid" src="./dist/img/svg/html-svgrepo-com.svg" alt="" />
           </div>
         </div>
       </div>
@@ -110,7 +110,7 @@ function About(){
             </div>
           </div>
           <div className="image ">
-            <img className="img-fluid" src="./dist/img/svg/css-svgrepo-com.svg" alt />
+            <img className="img-fluid" src="./dist/img/svg/css-svgrepo-com.svg" alt="" />
           </div>
         </div>
       </div>
@@ -122,7 +122,7 @@ function About(){
             </div>
           </div>
           <div className="image ">
-            <img className="img-fluid" src="./dist/img/svg/php-svgrepo-com.svg" alt />
+            <img className="img-fluid" src="./dist/img/svg/php-svgrepo-com.svg" alt="" />
           </div>
         </div>
       </div>
@@ -134,7 +134,7 @@ function About(){
             </div>
           </div>
           <div className="image ">
-            <img className="img-fluid" src="./dist/img/svg/laravel-svgrepo-com.svg" alt />
+            <img className="img-fluid" src="./dist/img/svg/laravel-svgrepo-com.svg" alt="" />
           </div>
         </div>
       </div>
@@ -146,7 +146,7 @@ function About(){
             </div>
           </div>
           <div className="image ">
-            <img className="img-fluid" src="./dist/img/svg/wordpress-svgrepo-com.svg" alt />
+            <img className="img-fluid" src="./dist/img/svg/wordpress-svgrepo-com.svg" alt="" />
           </div>
         </div>
       </div>
@@ -158,7 +158,7 @@ function About(){
             </div>
           </div>
           <div className="image ">
-            <img className="img-fluid" src="./dist/img/svg/javascript-svgrepo-com.svg" alt />
+            <img className="img-fluid" src="./dist/img/svg/javascript-svgrepo-com.svg" alt="" />
           </div>
         </div>
       </div>
@@ -280,11 +280,11 @@ function About(){
       <div className="col-sm-4">
         <div className="card">
           <div className="card-body">
-            <img src="./dist/img/png/photo1.png" alt className="img-fluid" />
+            <img src="./dist/img/png/photo1.png" alt="" className="img-fluid" />
           </div>
           <div className="card-footer">
             <span>27 October,2020</span>
-            <a href="#">
+            <a href="{}">
               <h3>Lorem ipsum dolor sit.</h3>
             </a>
             <p>
@@ -297,11 +297,11 @@ function About(){
       <div className="col-sm-4">
         <div className="card">
           <div className="card-body">
-            <img src="./dist/img/jpg/photo4.jpg" alt className="img-fluid" />
+            <img src="./dist/img/jpg/photo4.jpg" alt="" className="img-fluid" />
           </div>
           <div className="card-footer">
             <span>27 October,2020</span>
-            <a href="#">
+            <a  href="{}">
               <h3>Lorem ipsum dolor sit.</h3>
             </a>
             <p>
@@ -314,11 +314,11 @@ function About(){
       <div className="col-sm-4">
         <div className="card">
           <div className="card-body">
-            <img src="./dist/img/jpg/photo3.jpg" alt className="img-fluid" />
+            <img src="./dist/img/jpg/photo3.jpg" alt="" className="img-fluid" />
           </div>
           <div className="card-footer">
             <span>27 October,2020</span>
-            <a href="#">
+            <a  href="{}">
               <h3>Lorem ipsum dolor sit.</h3>
             </a>
             <p>
@@ -374,7 +374,7 @@ function About(){
       Meet me if you want
     </div>
     {/* Default to the left */}
-    <strong>Copyright © 2018-  <a href="#">Nayan Hossain</a>.</strong> All rights reserved.
+    <strong>Copyright © 2018-  <a href="{}">Nayan Hossain</a>.</strong> All rights reserved.
   </footer>
 </div>
     );

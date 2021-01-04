@@ -1,4 +1,4 @@
-import {  react} from "react";
+
 function Header() {
     return (
 <div>
@@ -52,9 +52,9 @@ function Header() {
             <h5>Email: <small href="mailto:nayanhossainbd.786@gmail.com">nayanhossainbd.786@gmail.com</small></h5>
             <h5>Address: <small>94/1 Crescent Road, Dhanmondi -1205, Dhaka</small></h5>
             <div className="profile-social">
-              <a href="https://github.com/nayanhossainbd" target="_blank"><i className="fab fa-github" /></a>
-              <a href="https://linkedin.com/in/nayanhossainbd" target="_blank"><i className="fab fa-linkedin" /></a>
-              <a href="https://facebook.com/nayanhossain.official" target="_blank"><i className="fab fa-facebook-f" /></a>
+              <a href="https://github.com/nayanhossainbd" target="_blank" rel="noreferrer"><i className="fab fa-github" /></a>
+              <a href="https://linkedin.com/in/nayanhossainbd" target="_blank" rel="noreferrer"><i className="fab fa-linkedin" /></a>
+              <a href="https://facebook.com/nayanhossain.official" target="_blank" rel="noreferrer"><i className="fab fa-facebook-f" /></a>
             </div>
           </div>
         </div>
