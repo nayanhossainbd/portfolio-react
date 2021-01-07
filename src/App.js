@@ -1,14 +1,17 @@
 
-import './App.css';
-import Header from "./components/header";
-import About from './components/about';
-function App() {
+import Menu from "./route";
+import Footer from "./components/footer"
+
+export function App() {
   return (
-    <div className="App">
-    < Header />
-    <About />
+    <div>
+    <Menu />
+    <Footer />
     </div>
+     
   );
 }
+
+
 
 export default App;
