@@ -1,18 +1,17 @@
-
+// import AboutInfo  from "../data/aboutinfo";
 function Header() {
     return (
 <div>
-  {/* Navbar */}
- 
-  {/* /.navbar */}
+
   <header style={{}}>
     <div className="container">
       <div className="row personal-profile">
         <div className="col-md-4 ">
           <div className="personal-profile__avatar">
-            <img className="img-fluid" src="./dist/img/jpg/profile.jpg" alt="avatar" />
+            <img className="img-fluid" src={"img/jpg/profile.jpg"} alt="avatar" />
           </div>
         </div>
+       
         <div className="col-md-8 personal-profile">
           <h2 className="personal-name">Nayan Hossain</h2>
           <span className="personal-designation">Fullstack Developer <small> Laravel </small> <small>PHP</small></span>

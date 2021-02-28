@@ -3,7 +3,7 @@ function Footer() {
     return (
     <div>
         <div className="container">
-    <h1>Get In Touch_</h1>
+    <h4>Get In Touch_</h4>
     <div className="row">
       <div className="col-md-4">
         <span className="d-block">Phone: <small>+88 01704458206</small></span>
@@ -45,7 +45,7 @@ function Footer() {
     <div className="float-right d-none d-sm-inline">
       Meet me if you want
     </div>
-    {/* Default to the left */}
+   
     <strong>Copyright © 2018-   <a href="{}">Nayan Hossain</a>.</strong> All rights reserved.
   </footer>
     </div>

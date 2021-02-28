@@ -7,9 +7,11 @@ import {
   } from "react-router-dom";
   
   import './App.css';
-  import Header from "./components/header";
+  import Contact from "./components/contact";
   import About from './components/about';
   import Home from './components/home';
+import Projects from "./components/projects";
+import Blogs from "./components/blogs";
   
   export function Menu() {
     return (
@@ -18,7 +20,7 @@ import {
   <nav className="main-header navbar navbar-expand-md navbar-light navbar-white">
       <div className="container">
         <a href="/" className="navbar-brand">
-          <img src="dist/img/png/logo.png" alt="NayanHossain Logo" className="brand-image img-circle elevation-3" style={{"opacity":".8"}} />
+          <img src={"img/png/logo.png"} alt="NayanHossain Logo" className="brand-image img-circle elevation-3" style={{"opacity":".8"}} />
           {/* <span class=" text-grey">Nayan Hossain</span> */}
         </a>
         <button className="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +37,13 @@ import {
               <Link className="nav-link" to="/about">About</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/header">Dashboard</Link>
+              <Link className="nav-link" to="/projects">Projects</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/blogs">Blogs</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/header">Contact Me</Link>
             </li>
           </ul>
         </div>
@@ -56,12 +64,17 @@ import {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route path="/about">
-              <Header />
+            <Route  path="/about"> 
               <About />
             </Route>
-            <Route path="/header">
-              <Header />
+            <Route  path="/projects"> 
+              <Projects />
+            </Route>
+            <Route  path="/blogs"> 
+              <Blogs />
+            </Route>
+            <Route xact path="/contact">
+              <Contact />
             </Route>
           </Switch>
         </div>
