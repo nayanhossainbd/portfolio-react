@@ -1,6 +1,7 @@
 
   import { React } from "react";
-  function Blogs(){
+  const  Blogs = ()=>{
+     
       return(
   <div>
   

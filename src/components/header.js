@@ -1,4 +1,4 @@
-// import AboutInfo  from "../data/aboutinfo";
+import AboutInfo  from "../data/aboutinfo";
 function Header() {
     return (
 <div>
@@ -13,11 +13,11 @@ function Header() {
         </div>
        
         <div className="col-md-8 personal-profile">
-          <h2 className="personal-name">Nayan Hossain</h2>
-          <span className="personal-designation">Fullstack Developer <small> Laravel </small> <small>PHP</small></span>
+          <h2 className="personal-name">{AboutInfo.name}</h2>
+          <span className="personal-designation">{AboutInfo.title} <small> {AboutInfo.expertise}</small></span>
           <div className="profile-info">
-            <h5> Age: <small>20</small></h5>
-            <h5>Phone: <small href="tel:+880 17 04045 8206"> +880 17 04045 8206</small></h5>
+            <h5> Age: <small>{AboutInfo.age}</small></h5>
+            <h5>Phone: <small href="tel:+880 17 04045 8206"> {AboutInfo.phone}</small></h5>
             <h5>Email: <small href="mailto:nayanhossainbd.786@gmail.com">nayanhossainbd.786@gmail.com</small></h5>
             <h5>Address: <small>94/1 Crescent Road, Dhanmondi -1205, Dhaka</small></h5>
             <div className="profile-social">
