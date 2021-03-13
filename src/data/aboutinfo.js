@@ -8,6 +8,7 @@ const AboutInfo = ({
   email:"nayanhossainbd.786@gmail.com",
   address:"94/1 Crescent Road",
   social:{
+    github:"github.com/nayanhossainbd",
     facebook:"facebook.com/nayanhossain.official",
     twitter:""
 
