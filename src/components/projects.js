@@ -21,7 +21,7 @@ function Projects(){
       <div className="mix category-a" data-order={1}>
         <div className="row project">
           <div className="col-md-6 col-lg-5 project_img">
-            <img className src="./dist/img/png/mobile-app-landing-page-template.png" alt="project-img" />
+            <img className src={"img/png/mobile-app-landing-page-template.png"} alt="project-img" />
           </div>
           <div className="col-md-6 col-lg-7 project_info">
             <h3 className="project_title">Admin template for Photo Service</h3>
@@ -45,7 +45,7 @@ function Projects(){
       <div className="mix category-b" data-order={2}>
         <div className="row project">
           <div className="col-md-6 col-lg-5 project_img">
-            <img className src="./dist/img/png/mobile-app-landing-page-template.png" alt="project-img" />
+            <img className src={"img/png/mobile-app-landing-page-template.png"} alt="project-img" />
           </div>
           <div className="col-md-6 col-lg-7 project_info">
             <h3 className="project_title">Admin template for Photo Service</h3>
@@ -69,7 +69,7 @@ function Projects(){
       <div className="mix category-b category-c" data-order={3}>
         <div className="row project">
           <div className="col-md-6 col-lg-5 project_img">
-            <img className src="./dist/img/png/mobile-app-landing-page-template.png" alt="project-img" />
+            <img className src={"img/png/mobile-app-landing-page-template.png"} alt="project-img" />
           </div>
           <div className="col-md-6 col-lg-7 project_info">
             <h3 className="project_title">Admin template for Photo Service</h3>
@@ -92,7 +92,7 @@ function Projects(){
       </div>
       <div className="mix category-a category-d" data-order={4}> <div className="row project">
           <div className="col-md-6 col-lg-5 project_img">
-            <img className src="./dist/img/png/mobile-app-landing-page-template.png" alt="project-img" />
+            <img className src={"img/png/mobile-app-landing-page-template.png"} alt="project-img" />
           </div>
           <div className="col-md-6 col-lg-7 project_info">
             <h3 className="project_title">Admin template for Photo Service</h3>
