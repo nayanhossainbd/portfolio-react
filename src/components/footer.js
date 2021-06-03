@@ -43,10 +43,10 @@ function Footer() {
   <footer className="main-footer">
     {/* To the right */}
     <div className="float-right d-none d-sm-inline">
-      Meet me if you <a href="{mailto:nayanhossainbd786.gmail.com}" >want</a>
+      Meet me if you <a href="mailto:nayanhossainbd786.gmail.com" >want</a>
     </div>
    
-    <strong>Copyright © 2018-   <a href="{nayanhossainbd786.gmail.com}">Nayan Hossain</a>.</strong> All rights reserved.
+    <strong>Copyright © 2018-   <a href="mailto:nayanhossainbd786.gmail.com">Nayan Hossain</a>.</strong> All rights reserved.
   </footer>
     </div>
     );
