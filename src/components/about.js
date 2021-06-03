@@ -46,19 +46,7 @@ function About(){
               <h4 className="bg-white">Employements</h4>
             </div>
             {/* /.timeline-label */}
-            {/* timeline item */}
-            <div>
-              <i className="fas fa-globe-asia" />
-              <div className="timeline-item">
-                <h3 className="timeline-header"><a href="{home}">Web Developer </a>at AR Trade International</h3>
-                <div className="timeline-body">
-                  <small> From September 01,2020 To December 31,2020 </small>
-                </div>
-              </div>
-            </div>
-            {/* END timeline item */}
-            {/* timeline item */}
-        {/* timeline item */}
+         {/* timeline item */}
             <div>
               <i className="fas fa-globe-asia" />
               <div className="timeline-item">
@@ -70,6 +58,17 @@ function About(){
             </div>
             {/* END timeline item */}
             {/* timeline item */}
+            <div>
+              <i className="fas fa-globe-asia" />
+              <div className="timeline-item">
+                <h3 className="timeline-header"><a href="{home}">Web Developer </a>at AR Trade International</h3>
+                <div className="timeline-body">
+                  <small> From September 01,2020 To December 31,2020 </small>
+                </div>
+              </div>
+            </div>
+            {/* END timeline item */}
+          
             {/* timeline item */}
             <div>
               <i className="fas fa-globe-asia" />
