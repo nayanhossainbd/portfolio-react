@@ -52,7 +52,19 @@ function About(){
               <div className="timeline-item">
                 <h3 className="timeline-header"><a href="{home}">Web Developer </a>at AR Trade International</h3>
                 <div className="timeline-body">
-                  <small> From September 01,2020 To Present </small>
+                  <small> From September 01,2020 To December 31,2020 </small>
+                </div>
+              </div>
+            </div>
+            {/* END timeline item */}
+            {/* timeline item */}
+        {/* timeline item */}
+            <div>
+              <i className="fas fa-globe-asia" />
+              <div className="timeline-item">
+                <h3 className="timeline-header"><a href="{home}">IT Officer </a>at MSA Textile's Limited</h3>
+                <div className="timeline-body">
+                  <small> From May 24,2020 To Running </small>
                 </div>
               </div>
             </div>
@@ -86,7 +98,7 @@ function About(){
             </div>
           </div>
           <div className="image ">
-            <img className="img-fluid" src="./dist/img/svg/html-svgrepo-com.svg" alt="" />
+            <img className="img-fluid" src={"img/svg/html-svgrepo-com.svg"} alt="" />
           </div>
         </div>
       </div>
@@ -98,7 +110,7 @@ function About(){
             </div>
           </div>
           <div className="image ">
-            <img className="img-fluid" src="./dist/img/svg/css-svgrepo-com.svg" alt="" />
+            <img className="img-fluid" src={"img/svg/css-svgrepo-com.svg"} alt="" />
           </div>
         </div>
       </div>
@@ -110,7 +122,7 @@ function About(){
             </div>
           </div>
           <div className="image ">
-            <img className="img-fluid" src="./dist/img/svg/php-svgrepo-com.svg" alt="" />
+            <img className="img-fluid" src={"img/svg/php-svgrepo-com.svg"} alt="" />
           </div>
         </div>
       </div>
@@ -122,7 +134,7 @@ function About(){
             </div>
           </div>
           <div className="image ">
-            <img className="img-fluid" src="./dist/img/svg/laravel-svgrepo-com.svg" alt="" />
+            <img className="img-fluid" src={"img/svg/laravel-svgrepo-com.svg"} alt="" />
           </div>
         </div>
       </div>
@@ -134,7 +146,7 @@ function About(){
             </div>
           </div>
           <div className="image ">
-            <img className="img-fluid" src="./dist/img/svg/wordpress-svgrepo-com.svg" alt="" />
+            <img className="img-fluid" src={"img/svg/wordpress-svgrepo-com.svg"} alt="" />
           </div>
         </div>
       </div>
@@ -146,7 +158,7 @@ function About(){
             </div>
           </div>
           <div className="image ">
-            <img className="img-fluid" src="./dist/img/svg/javascript-svgrepo-com.svg" alt="" />
+            <img className="img-fluid" src={"img/svg/javascript-svgrepo-com.svg"} alt="" />
           </div>
         </div>
       </div>
