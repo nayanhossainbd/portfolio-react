@@ -11,7 +11,7 @@
     <div className="col-sm-4">
       <div className="card">
         <div className="card-body">
-          <img src="./dist/img/png/photo1.png" alt="" className="img-fluid" />
+          <img src={"img/png/photo1.png"} alt="Blog Image" className="img-fluid" />
         </div>
         <div className="card-footer">
           <span>27 October,2020</span>
@@ -28,7 +28,7 @@
     <div className="col-sm-4">
       <div className="card">
         <div className="card-body">
-          <img src="./dist/img/jpg/photo4.jpg" alt="" className="img-fluid" />
+          <img src={"img/jpg/photo4.jpg"} alt="" className="img-fluid" />
         </div>
         <div className="card-footer">
           <span>27 October,2020</span>
@@ -45,7 +45,7 @@
     <div className="col-sm-4">
       <div className="card">
         <div className="card-body">
-          <img src="./dist/img/jpg/photo3.jpg" alt="" className="img-fluid" />
+          <img src={"img/jpg/photo3.jpg"} alt="" className="img-fluid" />
         </div>
         <div className="card-footer">
           <span>27 October,2020</span>
