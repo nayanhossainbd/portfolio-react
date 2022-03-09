@@ -14,6 +14,7 @@ const Intro =() => {
       <div className="row">
         <p>{state.description}</p>
         <div className="download-btn">
+            <Link to="Nayan.docx" target="_blank" download> <i className="fas fa-download"> Download</Link>
           <button type="submit" className="btn btn-secondary"><i className="fas fa-download" /> Download CV</button>
         </div>
       </div>
