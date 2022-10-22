@@ -3,7 +3,7 @@ const AboutInfo = ({
   name:'Md Nayan Hossain',
   title:"Fullstack Developer",
   expertise:"Laravel , PHP",
-  age:"21",
+  age:"23",
   phone:"+880 1704 458206",
   email:"nayanhossainbd.786@gmail.com",
   address:"Safipur, Kaliakair, Gazipur",

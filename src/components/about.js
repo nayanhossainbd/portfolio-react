@@ -46,13 +46,23 @@ function About(){
               <h4 className="bg-white">Employements</h4>
             </div>
             {/* /.timeline-label */}
+            {/* timeline item */}
+            <div>
+              <i className="fas fa-globe-asia" />
+              <div className="timeline-item">
+                <h3 className="timeline-header"><a href="{home}">IT Officer </a>at Rahmat Spinning Miills Limited</h3>
+                <div className="timeline-body">
+                  <small> From October 01, 2022 to Running </small>
+                </div>
+              </div>
+            </div>
          {/* timeline item */}
             <div>
               <i className="fas fa-globe-asia" />
               <div className="timeline-item">
                 <h3 className="timeline-header"><a href="{home}">IT Officer </a>at MSA Textile's Limited</h3>
                 <div className="timeline-body">
-                  <small> From May 24,2020 To Running </small>
+                  <small> From May 24,2021 To September 30, 2022 </small>
                 </div>
               </div>
             </div>
