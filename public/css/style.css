@@ -94,7 +94,8 @@ header{
 .project_title{
     font-size: 18px;
     line-height: 30px;
-    font-family: Roboto Mono, monospace;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 1em;
     text-transform: uppercase;
     margin-bottom: 15px;
     font-weight: 700

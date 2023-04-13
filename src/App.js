@@ -1,19 +1,28 @@
+import React, { useEffect } from "react";
+import AllRoutes from "./router/AllRoutes";
+import ScrollToTop from "./components/ScrollToTop";
+import AnimatedCursor from "react-animated-cursor";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-import React from "react";
-import Menu from "./route"
-
-import Footer from "./components/footer"
-
-class App extends React.Component{
-  render(){
-    return(
-      <div>
-      <Menu />
-      
-      <Footer />
-      </div>
-    );
-  }
-}
+const App = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+  return (
+    <>
+      <AnimatedCursor
+        innerSize={8}
+        outerSize={44}
+        color="255, 147, 1"
+        outerAlpha={0.3}
+        innerScale={0.7}
+        outerScale={1.4}
+      />
+      <ScrollToTop />
+      <AllRoutes />
+    </>
+  );
+};
 
 export default App;
