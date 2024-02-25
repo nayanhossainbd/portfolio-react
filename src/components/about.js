@@ -14,6 +14,19 @@ function About(){
               <h4 className="bg-white">Educations</h4>
             </div>
             {/* /.timeline-label */}
+
+             {/* timeline item */}
+             <div>
+              <i className="fas fa-graduation-cap bg-blue" />
+              <div className="timeline-item">
+                <span className="time"><i className="far fa-calendar-alt" /> 2023 - Present</span>
+                <h3 className="timeline-header">Bangladesh Open University</h3>
+                <div className="timeline-body">
+                 Bachelor of Computer Science And Engineering
+                </div>
+              </div>
+            </div>
+            {/* timeline item */}
             {/* timeline item */}
             <div>
               <i className="fas fa-graduation-cap bg-blue" />
@@ -47,12 +60,23 @@ function About(){
             </div>
             {/* /.timeline-label */}
          {/* timeline item */}
+         <div>
+              <i className="fas fa-globe-asia" />
+              <div className="timeline-item">
+                <h3 className="timeline-header"><a href="{home}">IT Officer / ERP Co Ordinator </a>at Belkuuchi Spinning Mills Limited</h3>
+                <div className="timeline-body">
+                  <small> From October 01,2022 To Running </small>
+                </div>
+              </div>
+            </div>
+            {/* END timeline item */}
+         {/* timeline item */}
             <div>
               <i className="fas fa-globe-asia" />
               <div className="timeline-item">
                 <h3 className="timeline-header"><a href="{home}">IT Officer </a>at MSA Textile's Limited</h3>
                 <div className="timeline-body">
-                  <small> From May 24,2020 To Running </small>
+                  <small> From May 24,2020 To September 30,2022 </small>
                 </div>
               </div>
             </div>
